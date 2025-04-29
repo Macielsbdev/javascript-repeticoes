@@ -15,6 +15,19 @@ function tabuada(){
     for(let i = 0; i <= 10; i++){
         console.log(`${numeroValue} x ${i} = ${numeroValue * i}`);
     }
+}
 
-    console.log("Teste 2")
+
+function soma(){
+    let x = 1 // 2 // 3
+    let y = 0 // 1 // 3
+
+    while (x <= 100)  {
+    
+        y = x + y    
+
+        x++
+    }
+
+    alert(y)
 }
