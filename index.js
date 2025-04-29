@@ -33,9 +33,31 @@ function soma(){
 }
 
 
-function exibir(){
-    let numeroValue = Number(document.querySelector("#numero").value);
-    console.log(`${exibir}`);
+function enviar(){
+    let numeroValue = document.querySelector('#valor1').value;
+    let valor = Number(numeroValue)
 
+    for(let num = 1; num <= valor; num++) {
+
+        if(num % 2 == 0) {
+            console.log(num)
+        }
+    }
+    
+}
+
+
+function contagem(){
+    let numeroValue = document.querySelector(`#contador`).value;
+    for (let i = 10; i >= 0; i--)
+        console.log(i);
+
+}
+
+
+function imprimir(){   
+    let nomesValue = document.querySelector(`#nomes`).value;
+    const nomes = ["Ana", "Carlos", "Beatriz", "Mateus"]
+    for (let = 0; i < nomes.length; i++)
 
 }
