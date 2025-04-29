@@ -46,14 +46,12 @@ function enviar(){
     
 }
 
-
 function contagem(){
     let numeroValue = document.querySelector(`#contador`).value;
     for (let i = 10; i >= 0; i--)
         console.log(i);
 
 }
-
 
 function imprimir(){   
     let nomesValue = document.querySelector(`#nomes`).value;
