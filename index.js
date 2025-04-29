@@ -31,3 +31,11 @@ function soma(){
 
     alert(y)
 }
+
+
+function exibir(){
+    let numeroValue = Number(document.querySelector("#numero").value);
+    console.log(`${exibir}`);
+
+
+}
