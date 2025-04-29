@@ -3,6 +3,9 @@ function contagem(){
     for(let i = 0; i <= voltasValue; i++){
         console.log(i);
     }
+
+    console.log("Teste 1")
+
 }
 
 
@@ -12,4 +15,6 @@ function tabuada(){
     for(let i = 0; i <= 10; i++){
         console.log(`${numeroValue} x ${i} = ${numeroValue * i}`);
     }
+
+    console.log("Teste 2")
 }
