@@ -55,7 +55,19 @@ function contagem(){
 
 function imprimir(){   
     let nomesValue = document.querySelector(`#nomes`).value;
-    const nomes = ["Ana", "Carlos", "Beatriz", "Mateus"]
-    for (let = 0; i < nomes.length; i++)
+    const nomes = ["Ana","Carlos","Beatriz","Mateus"];
+    for (let i = 0; i < nomes.length; i++){
+        console.log(nomes[i]);
+    }
+
+}
+
+
+function exibirnumerosimpares(){   
+    let numerosValue = document.querySelector(`#numeros`).value;    
+    for (let i = 1; i <=30; i++);
+    console.log(i);
+        
+    
 
 }
