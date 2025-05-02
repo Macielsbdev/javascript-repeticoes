@@ -65,9 +65,19 @@ function imprimir(){
 
 function exibirnumerosimpares(){   
     let numerosValue = document.querySelector(`#numeros`).value;    
-    for (let i = 1; i <=30; i++);
+    for (let i = 1; i <=30; i++)
     console.log(i);
         
     
 
 }
+
+
+function calcularfatorial(){
+    let nomesValue = document.querySelector("calcularfatorial").value;
+    let fatorial = 1;
+    for (let i = 1; i <= 5; i++)
+        fatorial *=i;
+    console.log(i);
+
+    }
