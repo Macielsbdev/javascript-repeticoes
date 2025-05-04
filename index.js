@@ -64,7 +64,7 @@ function imprimir(){
 
 
 function exibirnumerosimpares(){   
-    let numerosValue = document.querySelector(`#numeros`).value;    
+    let numerosValue = document.querySelector(`#numerosImpares`).value;    
     for (let i = 1; i <=30; i++)
     console.log(i);
         
@@ -73,11 +73,19 @@ function exibirnumerosimpares(){
 }
 
 
-function calcularfatorial(){
-    let nomesValue = document.querySelector("calcularfatorial").value;
+function calcularFatorial(){
+    const num = parseInt(document.getElementById('numero').value);
     let fatorial = 1;
-    for (let i = 1; i <= 5; i++)
-        fatorial *=i;
-    console.log(i);
-
+    if (isNaN(num) || num < 0) {
+        document.getElementById('resultado').innerText = 'Por favor, insira um número inteiro não negativo.';
+        return;
+    }
+    for (let i = 1; i <= num; i++) {
+        fatorial *= i;
+    }
+    
+        
+        
+    }
+    
     }

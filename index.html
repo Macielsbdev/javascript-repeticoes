@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estruturas de Repetição</title>
 </head>
+
 <body>
     <div>
         <h3>Questão 1 - for</h3>
         <p>Escolha quantas voltas quer fazer</p>
-        <input type="text" id="voltas"> 
+        <input type="text" id="voltas">
         <button onclick="contagem()">Executar</button>
 
 
@@ -18,7 +20,7 @@
     <div>
         <h3>Questão 2 - for</h3>
         <p>Escolha um numero para fazer a tabuada</p>
-        <input type="text" id="numero"> 
+        <input type="text" id="numero">
         <button onclick="tabuada()">Executar</button>
 
 
@@ -27,37 +29,37 @@
     <div>
         <h3>Questão 3 - for</h3>
         <p>Soma</p>
-        <input type="text" id="numero"> 
+        <input type="text" id="numero">
         <button onclick="soma()">Executar</button>
 
-        
+
     </div>
 
 
     <div>
         <h3>Questão 4 - for</h3>
         <p>Numeros pares de 1 a 50</p>
-        <input type="text" id="valor1"> 
+        <input type="text" id="valor1">
         <button onclick="enviar()">Executar</button>
 
-        
+
     </div>
 
 
     <div>
         <h3>Questão 5 - for</h3>
         <p>Contagem regressiva</p>
-        <input type="text" id="contador"> 
+        <input type="text" id="contador">
         <button onclick="contagem()">Executar</button>
 
-        
+
     </div>
 
 
     <div>
         <h3>Questão 6 - for</h3>
         <p>Impressão de uma lista de nomes</p>
-        <input type="text" id="nomes"> 
+        <input type="text" id="nomes">
         <button onclick="imprimir()">Executar</button>
 
     </div>
@@ -66,7 +68,7 @@
     <div>
         <h3>Questão 7 - for</h3>
         <p>Números ímpares de 1 a 30</p>
-        <input type="text" id="numeros"> 
+        <input type="text" id="numerosImpares">
         <button onclick="exibirnumerosimpares()">Exibir</button>
         <div id="resultado"></div>
 
@@ -76,8 +78,9 @@
     <div>
         <h3>Questão 8 - for</h3>
         <p>Fatorial de um número</p>
-        <input type="text" id="calcularfatorial"> 
-        <button onclick="calcular()">Exibir</button>
+        <label for="numero">Digite um número:</label>
+        <input type="number" id="numero" min="0" />
+        <button onclick="calcularFatorial()">Calcular</button>
         <div id="resultado"></div>
 
     </div>
@@ -86,6 +89,8 @@
 
 
 
-    <script src="index.js"></script>    
+
+    <script src="index.js"></script>
 </body>
+
 </html>
